@@ -1,0 +1,75 @@
+clc;
+clear;
+
+% ctrl + R -> comment selected line;
+% ctrl + T -> uncomment selected line;
+
+% a = 5;
+% b = 3;
+% c = a+b;
+% d = c + sin(b);
+% e = 5 * d;
+% f = exp(-d);
+% 
+% disp(d);
+% disp(e);
+% disp(f);
+% 
+% x=30;
+% y=sin(x);
+% A=cos(x);
+% z=tan(x);
+% 
+% disp(y);
+% disp(A);
+% disp(z);
+
+% a=30;
+% b=40;
+% 
+% if(a > b)
+%     fprintf("a is greater than b");
+% else 
+%     fprintf("b is greater than a");
+% end
+
+% x = 1:0.01:30;  % x is from 1 to 30 with a step size of 0.01
+% 
+% % figure
+% subplot(2,2,1)
+% y = sin(x);
+% plot(x,y);
+% xlabel("x")
+% ylabel("sin(x)")
+% 
+% % figure
+% subplot(2,2,2)
+% z = exp(x);
+% plot(x,z)
+% xlabel("x")
+% ylabel("exp(x)")
+% 
+% % figure
+% subplot(2,2,3)
+% c = cos(x);
+% plot(x,c)
+% xlabel("x")
+% ylabel("cos(x)")
+% 
+% x = -30:0.01:30;
+% subplot(2,2,4)
+% b = x.^2+2*x+3;
+% plot(x,b)
+% xlabel("x")
+% ylabel("x^2+2*x+3")
+% grid on
+
+x = -1:0.01:1;
+y = exp(x);
+z = sin(x);
+c = cos(x);
+b = x.^2+2*x+3;
+
+% plot(x,y,x,z,x,c,x,b);
+
+plot(c,)
